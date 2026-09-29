@@ -1,0 +1,18 @@
+﻿# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Large binary captures (optional - remove if you want to track them)
+# *.pcap
+# *.pcapng
