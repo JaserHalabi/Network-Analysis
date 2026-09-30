@@ -1,4 +1,4 @@
-﻿# Network Analysis and Security Portfolio
+# Network Analysis and Security Portfolio
 
 Hands-on network analysis, packet inspection, and vulnerability labs. This repository contains packet capture files (.pcap/.pcapng), lab write-ups, analysis scripts, and traffic breakdowns created during coursework and self-study.
 
@@ -32,7 +32,7 @@ Key focus areas:
 
 | ID | Topic | Protocols / Tools | Description |
 |---|---|---|---|
-| Lab 01 | Traffic Capture and Baseline Analysis | Wireshark, ICMP, DNS, HTTP | Baselining normal network traffic and inspecting basic protocol headers |
+| [Lab 01](labs/lab-01-wireshark-packet-filtering/) | Wireshark Packet Capture and Filtering Basics | Wireshark, TCP, UDP, HTTP, Ethernet | Getting started with Wireshark, packet list columns, display filters, and logical operators |
 | Lab 02 | TCP Handshake and Connection Teardown | TCP, Wireshark | Analyzing sequence numbers, window sizing, flags (SYN, ACK, FIN, RST) |
 | Lab 03 | ARP Spoofing and Mitigation | ARP, Scapy | Demonstrating ARP cache poisoning in a local virtual network |
 | Lab 04 | Port Scanning and Reconnaissance | Nmap, TCP/UDP | Detecting various Nmap scan types (SYN stealth, UDP, NULL scan) from PCAP data |

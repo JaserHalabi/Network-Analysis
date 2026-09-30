@@ -1,12 +1,9 @@
 ﻿# Labs
 
-This folder contains lab reports and written analysis.
+This folder contains lab reports, analysis write-ups, and supporting screenshots.
 
-Each lab gets its own subfolder named with the lab number and topic, for example:
-  lab-01-arp-spoofing/
-  lab-02-tcp-handshake/
+## Completed Labs
 
-Inside each subfolder:
-  README.md    Write-up and findings
-  captures/    Any relevant .pcap files
-  screenshots/ Supporting images
+| Lab | Title | Description |
+|---|---|---|
+| [Lab 01](lab-01-wireshark-packet-filtering/) | Wireshark Packet Capture and Filtering Basics | Interface selection, packet list columns, display filters (IP, port, MAC, flags), and logical operators |
